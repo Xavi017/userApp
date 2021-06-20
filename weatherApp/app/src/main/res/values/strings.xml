@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">weather_app</string>
+
+    <string name="app_bar">Como esta el clima?</string>
+    <string name="btn_search">BUSCAR CLIMA</string>
+    <string name="btn_maps">IR A MAPA</string>
+
+    <string name="current">Actual:</string>
+    <string name="max">Max:</string>
+    <string name="min">Min:</string>
+    <string name="weather">Clima:</string>
+</resources>
