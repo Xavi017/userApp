@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/buscar"
+      android:title=""
+      android:icon="@drawable/lupa"
+      app:showAsAction="ifRoom"
+      app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/menu_main"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/menu">
+        <menu>
+            <item
+                android:id="@+id/hombres"
+                android:title="Male"/>
+            <item
+                android:id="@+id/mujeres"
+                android:title="Female"/>
+            <item
+                android:id="@+id/all"
+                android:title="All"/>
+            <item
+                android:id="@+id/about"
+                android:title="About"/>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+</menu>
